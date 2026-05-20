@@ -1,0 +1,52 @@
+
+.my-logo{
+        width: 220px;
+    }
+
+
+.tt-logo {
+    padding: 0;
+}
+.h-info01 .tt-item [class^=icon-] {
+    color: white;
+}
+.h-info02 .tt-item a {
+    color: white;
+}
+.modal-content {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Only Mobile Devices */
+@media only screen and (max-width: 767px) {
+
+    .my-logo{
+        width: 120px;
+    }
+
+}
