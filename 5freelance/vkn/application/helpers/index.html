@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Access Denied</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .error-box {
+            text-align: center;
+            padding: 40px 30px;
+            max-width: 500px;
+            width: 90%;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .error-code {
+            font-size: 90px;
+            font-weight: 700;
+            color: #ff4c4c;
+        }
+
+        .error-title {
+            font-size: 32px;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        .error-text {
+            margin: 15px 0 25px;
+            font-size: 16px;
+            color: #ddd;
+        }
+
+        .error-text span {
+            color: #ffcc00;
+            font-weight: 600;
+        }
+
+        .btn-home {
+            display: inline-block;
+            padding: 12px 28px;
+            background: #ff4c4c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-home:hover {
+            background: #ff1f1f;
+        }
+
+        @media(max-width: 480px) {
+            .error-code {
+                font-size: 70px;
+            }
+            .error-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="error-box">
+    <div class="error-code">403</div>
+    <div class="error-title">Know Your Place</div>
+    <div class="error-text">
+        You are <span>not authorized</span> to access this page.<br>
+        Please go back or contact administrator.
+    </div>
+</div>
+
+</body>
+</html>
